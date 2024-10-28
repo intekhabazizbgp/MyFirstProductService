@@ -16,8 +16,6 @@ public class FakeStoreProductService implements ProductService{
 
     @Autowired
     private RestTemplate restTemplate;
-    @Autowired
-    private RestTemplateAutoConfiguration restTemplateAutoConfiguration;
 
     public FakeStoreProductService(RestTemplate restTemplate){
         this.restTemplate = restTemplate;
